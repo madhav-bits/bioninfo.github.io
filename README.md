@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+## CAP5510 - Bioinformatics Project Proposal
 
-You can use the [editor on GitHub](https://github.com/madhav-bits/bioninfo.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Project Title:
+Protein Secondary Structure Prediction with Long Short Term Memory Networks
 
-### Markdown
+### Team Members:
+Aditya Nalluri UFID: 64153915\
+Sai Madhav Kasam UFID: 17351683\
+Harish Jayanti UFID: 11552570
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Abstract:
+Prediction of protein secondary structure from the amino acid sequence is a classical bioinformatics problem.
+Common methods use feed forward neural networks or SVM’s combined with a sliding window, as these models
+does not naturally handle sequential data. Recurrent neural networks are an generalization of the feed forward
+neural network that naturally handle sequential data. We use a bidirectional recurrent neural network with long
+short term memory cells for prediction of secondary structure and evaluate using the Protein Data Bank dataset.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Plan of action:
+Understanding the paper and do some background work on implementing Neural Networks.\
+Primary amino acids sequences of proteins would be collected from Protein Data Bank, WWPDB.\
+Implement the Neural Network with Long Short Term cells.\
+Train the neural network using Primary sequences.\
+The model is evaluted based on the Q8 class ouput predictions.
 
-- Bulleted
-- List
+### Work load:
+The work load will be divided among the three of us equally in all aspects like reading research papers and Implementation.
 
-1. Numbered
-2. List
+### References:
+[1] SØNDERBY, S. K., AND WINTHER, O. Protein secondary structure prediction with long short
+term memory networks. arXiv preprint arXiv:1412.7828 (2014). \
+[2] Bordoloi H., Sarma K.K. (2012) Protein Structure Prediction Using Multiple Artificial Neural Network Classifier. In: Patnaik S., Yang [3] YM. (eds) Soft Computing Techniques in Vision Science. Studies in Computational Intelligence, vol 395. Springer, Berlin, Heidelberg.\
+Jian Zhou, Olga G. Troyanskaya Deep Supervised and Convolutional Generative Stochastic Network for Protein Secondary Structure Prediction.
+arXiv:1403.134 
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/madhav-bits/bioninfo.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
